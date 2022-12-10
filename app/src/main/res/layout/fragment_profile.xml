@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:weightSum="4"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/popimage"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/pop"
+           />
+
+        <ImageView
+            android:id="@+id/rockimage"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/rock"
+           />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/hiphopimage"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/hiphop"
+            />
+
+        <ImageView
+            android:id="@+id/electronic"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/dance"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/rb"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/country"
+           />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/classic"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/jazz"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
